@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.7.0](https://github.com/chandan10106-cmd/career-ops-hibrid/compare/web-v0.6.0...web-v0.7.0) (2026-08-10)
+
+
+### Features
+
+* **providers:** add VDAB zero-auth provider ([#2084](https://github.com/chandan10106-cmd/career-ops-hibrid/issues/2084)) ([6164384](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/6164384768fa47b7e164e2c36f53e86b2fd620cc))
+* **web:** Follow-up Tracker page with logging, history, and cadence settings ([#1422](https://github.com/chandan10106-cmd/career-ops-hibrid/issues/1422)) ([6554de6](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/6554de6dcd28b95556e95ae220aebc719cc7a2a0))
+
+
+### Bug Fixes
+
+* **dashboard:** localize the hired status label and buffer split stream openers ([#2295](https://github.com/chandan10106-cmd/career-ops-hibrid/issues/2295)) ([8f5d10d](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/8f5d10d6aa97438a4ac3908814456df5a8cf4083))
+* **deps:** update dependency next to v16.2.11 [security] ([#2198](https://github.com/chandan10106-cmd/career-ops-hibrid/issues/2198)) ([b6d1c87](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/b6d1c871d985c278af51d26fa51ef09274c1076b))
+* **deps:** update npm dependencies (+ Dockerfile playwright pins, web lockfile sync) ([f154f59](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/f154f5938fed43a37ab5e57efee1c45d664cdc3f))
+* **web:** add Hired to the states.ts FALLBACK so the degraded path accepts it ([#2282](https://github.com/chandan10106-cmd/career-ops-hibrid/issues/2282)) ([fd112c9](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/fd112c972d23cf0028e0411f36f67b1adf5520db))
+* **web:** label-aware pipeline.md reader — posted:/trust:/note: never misread as columns ([6c75d9a](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/6c75d9aa03c919803ffe6939b2ba6f1cf7238db6))
+* **web:** propagate the Hired terminal-success state across the whole dashboard ([#2250](https://github.com/chandan10106-cmd/career-ops-hibrid/issues/2250)) ([29503dc](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/29503dca07c4f1725675299db48685565f159acb))
+* **web:** render PDFs from the backend instead of the spawned agent ([#2182](https://github.com/chandan10106-cmd/career-ops-hibrid/issues/2182)) ([fef3ff2](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/fef3ff2e228cc14e55df4ced958e4b0aa630ec65))
+* **web:** resolve nested postcss and sharp advisories via overrides ([#2216](https://github.com/chandan10106-cmd/career-ops-hibrid/issues/2216)) ([ec02af8](https://github.com/chandan10106-cmd/career-ops-hibrid/commit/ec02af816abc81b500475f81bf1c2753727a1e79))
+
 ## [0.6.0](https://github.com/santifer/career-ops/compare/web-v0.5.0...web-v0.6.0) (2026-08-04)
 
 
